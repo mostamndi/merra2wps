@@ -1,0 +1,19 @@
+#!/bin/bash
+#./proc_merra2_ges_disc.sh 20150101 20150201 &
+#./proc_merra2_ges_disc.sh 20150201 20150301 &
+#./proc_merra2_ges_disc.sh 20150301 20150401 &
+#./proc_merra2_ges_disc.sh 20150401 20150501 &
+#./proc_merra2_ges_disc.sh 20150501 20150601 &
+./proc_merra2.sh 20150601 20150602 &
+wait
+#./proc_merra2_ges_disc.sh 20150701 20150801 &
+#wait
+#./proc_merra2_ges_disc.sh 20150801 20150901 &
+#wait
+#./proc_merra2_ges_disc.sh 20150901 20151001 &
+#wait
+#./proc_merra2_ges_disc.sh 20151001 20151101 &
+#wait
+#./proc_merra2_ges_disc.sh 20151101 20151201 &
+#wait
+#./proc_merra2_ges_disc.sh 20151201 20160101 &
